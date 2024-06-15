@@ -7,21 +7,20 @@ public class Main {
         int balance;
         balance = 150;
         int money;
-        money = 3500;
+        money = 60;
         int bonus;
         bonus = 100;
-        int summa;
-        summa = balance + money;
-        int summaBonus;
-        summaBonus = money / bonus;
-        int itog;
-        itog = summa + summaBonus;
+        int amount;
+        amount = balance + money;
+        int amountBonus;
+        amountBonus = money / bonus;
+
 
         if (money > 100) {
-            System.out.println("Итоговый счёт = " + itog);
-            System.out.println("Количество бонусных рублей = " + summaBonus);
+            System.out.println("Итоговый счёт = " + (amount + amountBonus));
+            System.out.println("Количество бонусных рублей = " + amountBonus);
         } else {
-            System.out.println("Итоговый счёт = " + summa);
+            System.out.println("Итоговый счёт = " + amount);
             System.out.println("Количество бонусных рублей = 0");
         }
 
