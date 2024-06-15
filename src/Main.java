@@ -4,19 +4,13 @@ public class Main {
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
         // суммы пополнения и тп
-        int balance;
-        balance = 150;
-        int money;
-        money = 60;
-        int bonus;
-        bonus = 100;
-        int amount;
-        amount = balance + money;
-        int amountBonus;
-        amountBonus = money / bonus;
+        int balance = 200;
+        int money = 5000;
+        int bonus = 100;
+        int amount = balance + money;
+        int amountBonus = money / bonus;
 
-
-        if (money > 100) {
+        if (money > 1000) {
             System.out.println("Итоговый счёт = " + (amount + amountBonus));
             System.out.println("Количество бонусных рублей = " + amountBonus);
         } else {
